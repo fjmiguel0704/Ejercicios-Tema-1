@@ -60,6 +60,9 @@ public class ExerciseTema15 {
 		 //Le mostramos al usuario el valor final de y
 		 System.out.println("y=" + "((" + a +" x " + x  + ")"  + "²" + ")" + " + " + "(" + b + " x " + x + ")" + " + " + c);
 		 System.out.print("y=" + y);
+		 
+		//Cerramos el Scanner una vez que el programa haya finalizado y cumplido su función y no vaya a leer ningún dato mas del teclado
+		read.close();
 
 	}
 

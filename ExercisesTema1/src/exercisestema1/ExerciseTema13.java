@@ -44,6 +44,9 @@ public class ExerciseTema13 {
 				
 				//Imprimimos el resultado de la variable resto y se lo mostramos al usuario
 				System.out.print("Habría que sumarle a " +num1 + ": " + resto + " números para que sea mútiplo de " +num2 );
+				
+				//Cerramos el Scanner una vez que el programa haya finalizado y cumplido su función y no vaya a leer ningún dato mas del teclado
+				read.close();
 
 
 	}

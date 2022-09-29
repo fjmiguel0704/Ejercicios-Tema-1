@@ -36,6 +36,9 @@ public class ExerciseTema14 {
 		//Le mostramos al usuario el valor de la variable area. Esto mostrará el area del triángulo ya calculada
 		System.out.print("El área del triángulo es: " + area);
 		
+		//Cerramos el Scanner una vez que el programa haya finalizado y cumplido su función y no vaya a leer ningún dato mas del teclado
+		read.close();
+		
 		
 		
 

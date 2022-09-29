@@ -37,6 +37,9 @@ public class ExerciseTema12 {
 		
 		//Imprimimos el resultado de la variable resto y se lo mostramos al usuario
 		System.out.print("Habría que sumarle a tu númro: " + resto );
+		
+		//Cerramos el Scanner una vez que el programa haya finalizado y cumplido su función y no vaya a leer ningún dato mas del teclado
+		read.close();
 
 	}
 
