@@ -21,9 +21,6 @@ public class ExerciseTema15 {
 		//Creo la variable y, que será la incógnita a resolver
 		 double y;
 		 
-		 //Creo la variable exponente, que me sustituirá a la potencia 2 para multiplicar por ella
-		 double exponente;
-		 
 		//Le pedimos al usuario que introduzca un número
 		 Scanner read = new Scanner (System.in);
 		 
@@ -51,11 +48,8 @@ public class ExerciseTema15 {
 		//Declaramos la variable x, que esta recogerá el valor introducido por el usuario
 		 x = read.nextDouble();
 		 
-		 //Declaramos la variable exponente, que esta será el resultado del valor de la variable a multiplicado por el valor de la variable x. Esto me hará de potencia 2
-		 exponente = a*x;
-		 
 		 //Declaramos la variable y, que esta será el resultado del cálculo de los coeficientes. Esto resolverá la variable incógnita (y).
-		 y = ((a*x)*exponente) + (b*x) + c;
+		 y = (a*(x*x)) + (b*x) + c;
 		 
 		 //Le mostramos al usuario el valor final de y
 		 System.out.println("y=" + "((" + a +" x " + x  + ")"  + "²" + ")" + " + " + "(" + b + " x " + x + ")" + " + " + c);
