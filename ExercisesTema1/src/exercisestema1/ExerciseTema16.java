@@ -43,6 +43,9 @@ public class ExerciseTema16 {
 		
 		//Le mostramos al usuario la cantidad de sgundos convertida a horas, minutos y segundos. Imprimiendo el resultado de las variables horas, minutos y segundos
 		System.out.print(cantidad + " correspondería a: " + horas + "h : " + minutos + "m : " + segundos + "s");
+		
+		//Cerramos el Scanner una vez que el programa haya finalizado y cumplido su función y no vaya a leer ningún dato mas del teclado
+		read.close();
 
 	}
 

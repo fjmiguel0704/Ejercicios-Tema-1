@@ -35,6 +35,9 @@ public class ExerciseTema19 {
 		
 		//Le muestre al usuario el resultado de la variable operador, que es bien true o false
 		System.out.print(operador);
+		
+		//Cerramos el Scanner una vez que el programa haya finalizado y cumplido su función y no vaya a leer ningún dato mas del teclado
+		read.close();
 
 	}
 

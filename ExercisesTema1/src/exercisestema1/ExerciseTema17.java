@@ -50,6 +50,9 @@ public class ExerciseTema17 {
 		//Le mostramos al usuario la suma de la tres distancias introducidas en centímetros. Imprimiendo por consola el resultado de la variable suma
 		System.out.print("La suma de las 3 longitudes en centímetros es de: " + suma + "cm");
 		
+		//Cerramos el Scanner una vez que el programa haya finalizado y cumplido su función y no vaya a leer ningún dato mas del teclado
+		read.close();
+		
 }
 	
 }

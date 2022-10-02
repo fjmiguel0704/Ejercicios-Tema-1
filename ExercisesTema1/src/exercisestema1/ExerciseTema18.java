@@ -61,6 +61,9 @@ public class ExerciseTema18 {
 		System.out.println("Se han vendido " +  suma +"€ en entradas");
 		System.out.print("El importe a cobrar en taquilla es de: " + descuentoAplicado + "€");
 		
+		//Cerramos el Scanner una vez que el programa haya finalizado y cumplido su función y no vaya a leer ningún dato mas del teclado
+		read.close();
+		
 
 	}
 
