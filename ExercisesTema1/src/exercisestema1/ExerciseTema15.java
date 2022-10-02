@@ -21,7 +21,7 @@ public class ExerciseTema15 {
 		//Creo la variable y, que será la incógnita a resolver
 		 double y;
 		 
-		//Le pedimos al usuario que introduzca un número
+		//Creamos el Scanner para leer por el teclado todo lo introducido por el usuario
 		 Scanner read = new Scanner (System.in);
 		 
 		//Le pedimos al usuario que introduzca un valor para a
