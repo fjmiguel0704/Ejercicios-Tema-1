@@ -2,7 +2,7 @@ package exercisestema1;
 
 import java.util.Scanner;
 
-public class ExerciseTema13 {
+public class ExerciseTema1_3 {
 
 	public static void main(String[] args) {
 		//Creamos las variable num1 y num2 de tipo int, ya que estas van guardar números enteros

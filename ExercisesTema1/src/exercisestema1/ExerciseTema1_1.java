@@ -2,7 +2,7 @@ package exercisestema1;
 
 import java.util.Scanner;
 
-public class ExerciseTema11 {
+public class ExerciseTema1_1 {
 
 	public static void main(String[] args) {
 		//Creamos la variable num de tipo double, ya que el número que se guardará en la variable va a contener decimales

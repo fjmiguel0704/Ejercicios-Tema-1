@@ -2,7 +2,7 @@ package exercisestema1;
 
 import java.util.Scanner;
 
-public class ExerciseTema17 {
+public class ExerciseTema1_7 {
 
 	public static void main(String[] args) {
 		//Creo la variable milímetros

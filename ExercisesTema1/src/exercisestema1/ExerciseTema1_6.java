@@ -2,7 +2,7 @@ package exercisestema1;
 
 import java.util.Scanner;
 
-public class ExerciseTema16 {
+public class ExerciseTema1_6 {
 
 	public static void main(String[] args) {
 		//Creo la variable cantidad

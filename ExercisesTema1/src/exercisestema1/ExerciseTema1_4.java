@@ -2,7 +2,7 @@ package exercisestema1;
 
 import java.util.Scanner;
 
-public class ExerciseTema14 {
+public class ExerciseTema1_4 {
 
 	public static void main(String[] args) {
 		
